@@ -1,0 +1,14 @@
+pypdf 
+pysqlite3-binary
+sentence_transformers
+langchain_experimental
+pymupdf
+Flask>=2.1.2
+chromadb>=0.1.0  # Assuming a starting version, adjust according to your compatibility needs
+langchain>=0.1.0  # Adjust to the latest or required version
+PyMuPDF>=1.19.6  # pymupdf instead of pypdf, assuming you meant PyMuPDF for PDF handling
+sentence-transformers>=2.2.0
+# langchain_experimental does not have a version listed publicly, ensure to specify if available
+torch>=1.10.0  # Adding PyTorch, as it's often a dependency for embedding and transformers-related tasks
+transformers>=4.15.0  # Ensuring you have HuggingFace transformers for model handling
+huggingface-hub>=0.4.0  # For interacting with Hugging Face models and repositories
